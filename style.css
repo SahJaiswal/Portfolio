@@ -26,3 +26,20 @@ section.resume-section .resume-item .resume-date{min-width:18rem}}
 .text-primary{color:#bd5d38!important}
 a{color:#bd5d38}
 a:active,a:focus,a:hover{color:#824027}
+.project {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    flex: 1;
+    /* Additional styles for your flex items */
+  
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
